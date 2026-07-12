@@ -1,0 +1,43 @@
+{
+  "name": "Club",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "description_ar": {
+      "type": "string"
+    },
+    "schedule": {
+      "type": "string"
+    },
+    "schedule_ar": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string",
+      "enum": [
+        "homs",
+        "hama",
+        "both"
+      ]
+    },
+    "icon": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "name",
+    "description"
+  ]
+}

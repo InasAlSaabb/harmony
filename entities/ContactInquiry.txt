@@ -1,0 +1,50 @@
+{
+  "name": "ContactInquiry",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Full name of the person making inquiry"
+    },
+    "email": {
+      "type": "string",
+      "description": "Email address"
+    },
+    "organization": {
+      "type": "string",
+      "description": "Organization name if applicable"
+    },
+    "inquiry_type": {
+      "type": "string",
+      "enum": [
+        "partnership",
+        "funding",
+        "volunteer",
+        "participate",
+        "media",
+        "other"
+      ],
+      "description": "Type of inquiry"
+    },
+    "message": {
+      "type": "string",
+      "description": "Detailed message"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "new",
+        "in_progress",
+        "responded",
+        "closed"
+      ],
+      "default": "new"
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "inquiry_type",
+    "message"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "TeamMember",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "name_ar": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "role_ar": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "string"
+    },
+    "bio_ar": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "order": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "name",
+    "role"
+  ]
+}

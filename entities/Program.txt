@@ -1,0 +1,73 @@
+{
+  "name": "Program",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "title_ar": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "description_ar": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "exhibition",
+        "workshop",
+        "club",
+        "documentary",
+        "ongoing"
+      ]
+    },
+    "participants_count": {
+      "type": "number"
+    },
+    "visitors_count": {
+      "type": "number"
+    },
+    "artworks_count": {
+      "type": "number"
+    },
+    "impact_summary": {
+      "type": "string"
+    },
+    "impact_summary_ar": {
+      "type": "string"
+    },
+    "featured_image": {
+      "type": "string"
+    },
+    "gallery_images": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "video_url": {
+      "type": "string"
+    },
+    "is_featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "order": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "title",
+    "slug",
+    "description"
+  ]
+}

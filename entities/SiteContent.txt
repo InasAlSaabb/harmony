@@ -1,0 +1,40 @@
+{
+  "name": "SiteContent",
+  "type": "object",
+  "properties": {
+    "key": {
+      "type": "string",
+      "description": "Unique identifier for this content block"
+    },
+    "title": {
+      "type": "string"
+    },
+    "title_ar": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "content_ar": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "section": {
+      "type": "string",
+      "enum": [
+        "hero",
+        "about",
+        "mission",
+        "impact",
+        "footer",
+        "other"
+      ]
+    }
+  },
+  "required": [
+    "key",
+    "content"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Story",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "title_ar": {
+      "type": "string"
+    },
+    "excerpt": {
+      "type": "string"
+    },
+    "excerpt_ar": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "content_ar": {
+      "type": "string"
+    },
+    "storyteller_name": {
+      "type": "string"
+    },
+    "storyteller_role": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "is_published": {
+      "type": "boolean",
+      "default": true
+    },
+    "order": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "title",
+    "content"
+  ]
+}
