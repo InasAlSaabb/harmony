@@ -53,9 +53,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-5 lg:col-span-1">
             <div className="flex items-center gap-3">
-              <div className="w-11 h-11 rounded-full harmony-gradient flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-lg" style={{ fontFamily: 'serif' }}>ﻫ</span>
-              </div>
+              <img
+                src="/logo-white.svg"
+                alt={t('Harmony Forum logo', 'شعار ملتقى هارموني')}
+                className="h-11 w-auto"
+              />
               <div>
                 <h3 className="font-bold text-base text-white">{t('Harmony Forum', 'ملتقى هارموني')}</h3>
                 <p className="text-white/40 text-xs">{t('Cultural Forum · Syria', 'الملتقى الثقافي · سوريا')}</p>
