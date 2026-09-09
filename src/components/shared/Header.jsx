@@ -40,9 +40,11 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to={createPageUrl('Home')} className="flex items-center gap-3 group">
-            <div className="w-10 h-10 md:w-12 md:h-12 rounded-full harmony-gradient flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
-              <span className="text-white font-bold text-base md:text-lg" style={{ fontFamily: 'serif' }}>ﻫ</span>
-            </div>
+            <img
+              src="/logo.svg"
+              alt={t('Harmony Forum logo', 'شعار ملتقى هارموني')}
+              className="h-10 md:h-12 w-auto transition-transform group-hover:scale-105"
+            />
             <div className="hidden sm:block">
               <h1 className="text-base md:text-lg font-bold text-gray-900 tracking-tight leading-tight">
                 {t('Harmony Forum', 'ملتقى هارموني')}
