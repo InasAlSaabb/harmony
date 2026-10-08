@@ -293,7 +293,7 @@ export default function About() {
             {t('Our Partners', 'شركاؤنا')}
           </p>
           <div className="flex flex-wrap items-center justify-center gap-12">
-            {['URDC', 'MCC', 'Local Community Leaders', 'Union of Fine Artists — Homs'].map((p, i) => (
+            {['URDC', 'MCC', 'Aramaic Relief International', 'Local Community Leaders', 'Union of Fine Artists — Homs'].map((p, i) => (
               <span key={i} className="text-gray-400 font-semibold text-sm">{p}</span>
             ))}
           </div>

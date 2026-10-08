@@ -86,7 +86,7 @@ export default function CTASection() {
             {t('Our Partners', 'شركاؤنا')}
           </p>
           <div className="flex flex-wrap items-center justify-center gap-12 opacity-60">
-            {['URDC', 'MCC', 'Local Partners'].map((partner, i) => (
+            {['URDC', 'MCC', 'Aramaic Relief International', 'Local Partners'].map((partner, i) => (
               <div key={i} className="text-gray-500 font-bold text-sm tracking-wider">
                 {partner}
               </div>
