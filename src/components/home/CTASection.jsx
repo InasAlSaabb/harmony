@@ -21,8 +21,8 @@ export default function CTASection() {
     {
       label: t('Local Community', 'المجتمع المحلي'),
       description: t(
-        'Join our workshops, clubs and activities in Homs or Hama. Everyone is welcome — no prior experience needed.',
-        'انضم إلى ورشاتنا ونوادينا وأنشطتنا في حمص أو حماة. الجميع مرحب به — لا حاجة لخبرة مسبقة.'
+        'Join our workshops, clubs and activities in Homs. Everyone is welcome — no prior experience needed.',
+        'انضم إلى ورشاتنا ونوادينا وأنشطتنا في حمص. الجميع مرحب به — لا حاجة لخبرة مسبقة.'
       ),
       cta: t('Join an Activity', 'انضم لنشاط'),
       href: 'GetInvolved',
