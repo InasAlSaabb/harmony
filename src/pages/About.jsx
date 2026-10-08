@@ -164,14 +164,6 @@ export default function About() {
                     style={{ filter: 'saturate(0.7)' }}
                   />
                 </div>
-                <div className="absolute -bottom-6 -right-6 w-48 bg-white p-3 shadow-xl rotate-3 rounded">
-                  <img
-                    src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=200&h=150&q=80&fit=crop"
-                    alt="Exhibition"
-                    className="w-full rounded"
-                  />
-                  <p className="text-xs text-center text-gray-500 mt-2">{t('Beyond Colors Exhibition', 'معرض ما وراء الألوان')}</p>
-                </div>
               </div>
             </motion.div>
           </div>
