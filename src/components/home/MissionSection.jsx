@@ -64,9 +64,11 @@ export default function MissionSection() {
               <p className="text-sm font-semibold text-gray-700 mb-3">{t('Our Values', 'قيمنا')}</p>
               <div className="space-y-2">
                 {[
-                  t('Humanity & Respect for Difference', 'الإنسانية واحترام الاختلاف'),
-                  t('Simplicity & Genuine Expression', 'البساطة والتعبير الصادق'),
-                  t('Participation & Collective Creation', 'المشاركة والإبداع الجماعي'),
+                  t('Accepting Difference', 'تقبل الاختلاف'),
+                  t('Simplicity', 'البساطة'),
+                  t('Uniqueness', 'الفرادة'),
+                  t('Humanity', 'الإنسانية'),
+                  t('Participation', 'التشاركية'),
                 ].map((v, i) => (
                   <div key={i} className="flex items-center gap-3">
                     <span className="w-5 h-5 rounded-full flex items-center justify-center text-xs text-white font-bold flex-shrink-0" style={{ backgroundColor: '#c9a84c' }}>✓</span>

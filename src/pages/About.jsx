@@ -207,11 +207,11 @@ export default function About() {
               <h3 className="text-lg font-bold mb-4 text-yellow-300">{t('Our Values', 'قيمنا')}</h3>
               <ul className="space-y-3">
                 {[
-                  t('Accepting Difference', 'قبول الاختلاف'),
+                  t('Accepting Difference', 'تقبل الاختلاف'),
                   t('Simplicity', 'البساطة'),
-                  t('Singularity', 'التفرد'),
+                  t('Uniqueness', 'الفرادة'),
                   t('Humanity', 'الإنسانية'),
-                  t('Participatory', 'المشاركة'),
+                  t('Participation', 'التشاركية'),
                 ].map((v, i) => (
                   <li key={i} className="flex items-center gap-3 text-white/90 text-sm">
                     <span className="w-1.5 h-1.5 rounded-full bg-yellow-400 flex-shrink-0" />
