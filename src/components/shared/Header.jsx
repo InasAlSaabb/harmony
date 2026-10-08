@@ -32,7 +32,7 @@ export default function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-white/97 backdrop-blur-md shadow-md'
+          ? 'bg-white shadow-md'
           : 'bg-white/95 backdrop-blur-sm'
       }`}
     >
@@ -47,10 +47,10 @@ export default function Header() {
             />
             <div className="hidden sm:block">
               <h1 className="text-base md:text-lg font-bold text-gray-900 tracking-tight leading-tight">
-                {t('Harmony Forum', 'ملتقى هارموني')}
+                {t('Harmony Cultural Forum', 'ملتقى هارموني الثقافي')}
               </h1>
               <p className="text-[11px] text-purple-600 font-medium -mt-0.5 tracking-wide uppercase">
-                {t('Cultural Forum · Homs, Syria', 'الملتقى الثقافي · حمص، سوريا')}
+                {t('Homs, Syria', 'حمص، سوريا')}
               </p>
             </div>
           </Link>

@@ -43,7 +43,7 @@ export default function CentersSection() {
               <div className="absolute inset-0 p-8 flex flex-col justify-end">
                 <div className="flex items-center gap-2 mb-3">
                   <MapPin className="w-4 h-4 text-yellow-400" />
-                  <span className="text-yellow-400 text-sm font-medium">{t('Founded 2018', 'تأسست 2018')}</span>
+                  <span className="text-yellow-400 text-sm font-medium">{t('Founded 2019', 'تأسست 2019')}</span>
                 </div>
                 <h3 className="text-3xl font-black text-white">{t('Homs Center', 'مركز حمص')}</h3>
                 <p className="text-white/70 text-sm mt-2 leading-relaxed max-w-sm">

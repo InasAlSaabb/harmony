@@ -249,7 +249,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="font-medium text-gray-900 text-sm">{t('Homs Center', 'مركز حمص')}</p>
-                      <p className="text-gray-500 text-sm">{t('Homs, Syria · Since 2018', 'حمص، سوريا · منذ 2018')}</p>
+                      <p className="text-gray-500 text-sm">{t('Homs, Syria · Since 2019', 'حمص، سوريا · منذ 2019')}</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -279,7 +279,7 @@ export default function Contact() {
               <p className="text-xs text-gray-400 text-center leading-relaxed">
                 {t(
                   'Harmony Cultural Forum operates under the patronage of the Syriac Orthodox Archbishopric of Homs, Hama and Tartous',
-                  'يعمل ملتقى هارموني الثقافي تحت رعاية مطرانية السريان الأرثوذكس في حمص وحماة وطرطوس'
+                  'يعمل ملتقى هارموني الثقافي تحت رعاية مطرانية حمص وحماة وطرطوس للسريان الأرثوذكس'
                 )}
               </p>
             </motion.div>

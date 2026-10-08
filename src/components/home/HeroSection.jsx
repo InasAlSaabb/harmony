@@ -44,8 +44,8 @@ export default function HeroSection() {
               <span className="w-1.5 h-1.5 rounded-full bg-yellow-400" />
               <span className="text-yellow-300 text-xs font-medium">
                 {t(
-                  'Under the patronage of the Syriac Orthodox Archbishopric',
-                  'تحت رعاية مطرانية السريان الأرثوذكس'
+                  'Under the patronage of the Syriac Orthodox Archbishopric of Homs, Hama and Tartous',
+                  'تحت رعاية مطرانية حمص وحماة وطرطوس للسريان الأرثوذكس'
                 )}
               </span>
             </div>
@@ -63,8 +63,8 @@ export default function HeroSection() {
 
             <p className="text-white/50 text-sm mb-12 max-w-xl mx-auto leading-relaxed">
               {t(
-                'Homs, Syria · Since 2018 · Peacebuilding · Social Cohesion · Youth Empowerment',
-                'حمص، سوريا · منذ 2018 · بناء السلام · التماسك الاجتماعي · تمكين الشباب'
+                'Homs, Syria · Since 2019 · Peacebuilding · Social Cohesion · Youth Empowerment',
+                'حمص، سوريا · منذ 2019 · بناء السلام · التماسك الاجتماعي · تمكين الشباب'
               )}
             </p>
 
@@ -96,7 +96,7 @@ export default function HeroSection() {
             className="mt-20 grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto"
           >
             {[
-              { number: '2018', label: t('Founded', 'التأسيس') },
+              { number: '2019', label: t('Founded', 'التأسيس') },
               { number: '10,000+', label: t('Exhibition Visitors', 'زوار المعارض') },
               { number: '250+', label: t('Artworks Created', 'عمل فني') },
               { number: '2', label: t('Centers: Homs & Hama', 'مركزان: حمص وحماة') },

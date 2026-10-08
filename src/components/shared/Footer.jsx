@@ -31,7 +31,7 @@ export default function Footer() {
           <p className="text-white/60 text-xs text-center sm:text-left">
             {t(
               'Under the patronage of the Syriac Orthodox Archbishopric of Homs, Hama and Tartous',
-              'تحت رعاية مطرانية السريان الأرثوذكس في حمص وحماة وطرطوس'
+              'تحت رعاية مطرانية حمص وحماة وطرطوس للسريان الأرثوذكس'
             )}
           </p>
           <div className="flex items-center gap-4">
@@ -59,14 +59,14 @@ export default function Footer() {
                 className="h-11 w-auto"
               />
               <div>
-                <h3 className="font-bold text-base text-white">{t('Harmony Forum', 'ملتقى هارموني')}</h3>
+                <h3 className="font-bold text-base text-white">{t('Harmony Cultural Forum', 'ملتقى هارموني الثقافي')}</h3>
                 <p className="text-white/40 text-xs">{t('Cultural Forum · Syria', 'الملتقى الثقافي · سوريا')}</p>
               </div>
             </div>
             <p className="text-white/50 text-sm leading-relaxed">
               {t(
-                'Using art and culture as tools for peacebuilding and social cohesion in post-conflict Syria since 2018.',
-                'نستخدم الفن والثقافة كأدوات لبناء السلام والتماسك الاجتماعي في سوريا منذ 2018.'
+                'Using art and culture as tools for peacebuilding and social cohesion in post-conflict Syria since 2019.',
+                'نستخدم الفن والثقافة كأدوات لبناء السلام والتماسك الاجتماعي في سوريا منذ 2019.'
               )}
             </p>
             <div className="flex items-center gap-3 pt-1">

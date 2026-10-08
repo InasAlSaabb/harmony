@@ -8,7 +8,7 @@ export default function MissionSection() {
   const pillars = [
     {
       number: '01',
-      title: t('Peacebuilding Through Art', 'بناء السلام من خلال الفن'),
+      title: t('Peacebuilding Through Art and Culture', 'بناء السلام من خلال الفن والثقافة'),
       description: t(
         'We use cultural expression to translate conflict experience into shared human narratives, creating neutral spaces where difficult histories can be explored without reinforcing divisions.',
         'نستخدم التعبير الثقافي لترجمة تجربة النزاع إلى روايات إنسانية مشتركة، خالقين مساحات محايدة حيث يمكن استكشاف التواريخ الصعبة دون تعزيز الانقسامات.'
@@ -55,8 +55,8 @@ export default function MissionSection() {
             </h2>
             <p className="mt-6 text-gray-500 leading-relaxed">
               {t(
-                'Founded in Homs, Syria in 2018, Harmony Cultural Forum is a voluntary, developmental, and humanitarian initiative operating under the patronage of the Syriac Orthodox Archbishopric. We believe art and culture can bridge divides and foster social cohesion in post-conflict communities.',
-                'تأسس ملتقى هارموني الثقافي في حمص، سوريا عام 2018، وهو مبادرة طوعية وتنموية وإنسانية تعمل تحت رعاية مطرانية السريان الأرثوذكس. نؤمن أن الفن والثقافة يمكنهما جسر الانقسامات وتعزيز التماسك الاجتماعي في المجتمعات ما بعد النزاع.'
+                'Founded in Homs, Syria in 2019, Harmony Cultural Forum is a voluntary, developmental, and humanitarian initiative operating under the patronage of the Syriac Orthodox Archbishopric of Homs, Hama and Tartous. We believe art and culture can bridge divides and foster social cohesion in post-conflict communities.',
+                'تأسس ملتقى هارموني الثقافي في حمص، سوريا عام 2019، وهو مبادرة طوعية وتنموية وإنسانية تعمل تحت رعاية مطرانية حمص وحماة وطرطوس للسريان الأرثوذكس. نؤمن أن الفن والثقافة يمكنهما جسر الانقسامات وتعزيز التماسك الاجتماعي في المجتمعات ما بعد النزاع.'
               )}
             </p>
 

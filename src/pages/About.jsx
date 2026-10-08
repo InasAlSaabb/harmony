@@ -130,14 +130,14 @@ export default function About() {
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
                   {t(
-                    'A voluntary, developmental and humanitarian project, working under the patronage of the Archbishopric of the Syriac Orthodox in Homs, operating on peace-building through arts and culture, pursuing to empower and support youth by providing them with a safe space.',
-                    'مشروع طوعي وتنموي وإنساني يعمل تحت رعاية مطرانية السريان الأرثوذكس في حمص، يعمل على بناء السلام من خلال الفنون والثقافة، ويسعى إلى تمكين الشباب ودعمهم بتوفير مساحة آمنة لهم.'
+                    'A voluntary, developmental and humanitarian project, working under the patronage of the Syriac Orthodox Archbishopric of Homs, Hama and Tartous, operating on peace-building through arts and culture, pursuing to empower and support youth by providing them with a safe space.',
+                    'مشروع طوعي وتنموي وإنساني يعمل تحت رعاية مطرانية حمص وحماة وطرطوس للسريان الأرثوذكس، يعمل على بناء السلام من خلال الفنون والثقافة، ويسعى إلى تمكين الشباب ودعمهم بتوفير مساحة آمنة لهم.'
                   )}
                 </p>
                 <p>
                   {t(
-                    'Harmony project began in 2018 with a group of young people who believed in their abilities and skills. They took it upon themselves to create a place that captures the essence of Homs, and that\'s why they chose a 1906-year-old Syrian house. Despite being severely damaged by the conflict, volunteers worked tirelessly to restore it, turning the dust of conflict into the vibrant colors of life.',
-                    'بدأ مشروع هارموني في عام 2018 بمجموعة من الشباب الذين آمنوا بقدراتهم ومهاراتهم. أخذوا على عاتقهم إنشاء مكان يجسد روح حمص، ولهذا اختاروا منزلاً سورياً يعود إلى عام 1906. على الرغم من تضرره الشديد بسبب النزاع، عمل المتطوعون بلا كلل لترميمه، محولين غبار النزاع إلى ألوان الحياة النابضة.'
+                    'Harmony project began in 2019 with a group of young people who believed in their abilities and skills. They took it upon themselves to create a place that captures the essence of Homs, and that\'s why they chose a 1906-year-old Syrian house. Despite being severely damaged by the conflict, volunteers worked tirelessly to restore it, turning the dust of conflict into the vibrant colors of life.',
+                    'بدأ مشروع هارموني في عام 2019 بمجموعة من الشباب الذين آمنوا بقدراتهم ومهاراتهم. أخذوا على عاتقهم إنشاء مكان يجسد روح حمص، ولهذا اختاروا منزلاً سورياً يعود إلى عام 1906. على الرغم من تضرره الشديد بسبب النزاع، عمل المتطوعون بلا كلل لترميمه، محولين غبار النزاع إلى ألوان الحياة النابضة.'
                   )}
                 </p>
                 <p>
