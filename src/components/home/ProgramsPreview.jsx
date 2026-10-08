@@ -42,6 +42,22 @@ export default function ProgramsPreview() {
       color: '#4a3456',
     },
     {
+      year: '2023',
+      title: t('Community Clubs', 'النوادي المجتمعية'),
+      subtitle: t('Ongoing Program', 'برنامج مستمر'),
+      description: t(
+        'Part of the safe space at Harmony — over 100 participants gathering regularly to share mutual interests through the English Club, the Cinema Club and the Book Club.',
+        'جزء من المساحة الآمنة لهارموني — أكثر من 100 مشارك يجتمعون بانتظام لتبادل الاهتمامات المشتركة من خلال نادي اللغة الإنجليزية ونادي السينما ونادي الكتاب.'
+      ),
+      stats: [
+        { value: '100+', label: t('Participants', 'مشارك') },
+        { value: '3', label: t('Clubs', 'نوادي') },
+        { value: '2023', label: t('Ongoing', 'قيد التنفيذ') },
+      ],
+      image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=700&q=80&fit=crop',
+      color: '#4a3456',
+    },
+    {
       year: '2024',
       title: t('Revival', 'إحياء'),
       subtitle: t('Ongoing Project', 'مشروع قائم'),
@@ -88,7 +104,7 @@ export default function ProgramsPreview() {
         </div>
 
         {/* Programs */}
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
           {programs.map((program, index) => (
             <motion.article
               key={index}
