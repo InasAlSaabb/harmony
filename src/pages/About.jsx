@@ -64,12 +64,39 @@ export default function About() {
     },
     {
       year: '2024',
-      title: t('Revival', 'إحياء'),
+      title: t('Revival 1', 'إحياء 1'),
       description: t(
-        'Harmony started the journey of "Revival" project — about the city of Homs, its habitats, and what gathers them. Three axes: monuments, cultural context, and lifestyle.',
-        'بدأ هارموني رحلة مشروع "إحياء" — عن مدينة حمص وأحيائها  وما يجمعها. ثلاثة محاور: المعالم والسياق الثقافي ونمط الحياة.'
+        'Documenting the cultural identity of the city of Homs through artistic research, along three axes: architectural heritage, the cultural and artistic context, and lifestyle and daily practices.',
+        'توثيق الهوية الثقافية لمدينة حمص عبر البحث الفني، من خلال ثلاثة محاور: التراث العمراني، والسياق الثقافي والفني، ونمط الحياة والممارسات اليومية.'
       ),
-      image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&q=80&fit=crop',
+      image: 'https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=400&h=300&q=80&fit=crop',
+    },
+    {
+      year: '2024',
+      title: t('Droub Nights', 'ليالي دروب'),
+      description: t(
+        'A touring series of music performances across Homs, its eastern countryside and Tartous, bringing music to local communities and gathering a diverse audience around a shared art.',
+        'جولة عروض موسيقية تنقّلت بين حمص وريفها الشرقي وطرطوس، تحمل الموسيقى إلى المجتمعات المحلية وتجمع جمهوراً متنوعاً حول فن مشترك.'
+      ),
+      image: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=300&q=80&fit=crop',
+    },
+    {
+      year: '2025',
+      title: t('Revival 2', 'إحياء 2'),
+      description: t(
+        'Documenting the heritage of the Homs countryside through 34 oral history interviews across 22 villages, culminating in the exhibition "From the Soil of the Threshing Floors" — a sensory journey through the corners of rural life.',
+        'توثيق تراث ريف حمص عبر 34 مقابلة تاريخ شفوي في 22 قرية، تُوِّج بمعرض «من تربة البيادر» كرحلة حسية بين زوايا الحياة الريفية.'
+      ),
+      image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&q=80&fit=crop',
+    },
+    {
+      year: '2026',
+      title: t('Revival 3', 'إحياء 3'),
+      description: t(
+        'The third and final phase of the three-year Revival project documenting the cultural identity of Homs and its countryside. Currently under way.',
+        'المرحلة الثالثة والختامية من مشروع إحياء الممتد على ثلاث سنوات لتوثيق الهوية الثقافية لحمص وريفها، وهي قيد التنفيذ حالياً.'
+      ),
+      image: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400&h=300&q=80&fit=crop',
     },
   ];
 
@@ -83,7 +110,7 @@ export default function About() {
               'https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=400&q=60',
               'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=400&q=60',
               'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&q=60',
-              'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&q=60',
+              'https://images.unsplash.com/photo-1452421822248-d4c2b47f0c81?w=400&q=60',
             ].map((src, i) => (
               <img key={i} src={src} alt="" className="w-full h-full object-cover" />
             ))}

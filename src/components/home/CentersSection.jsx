@@ -78,7 +78,7 @@ export default function CentersSection() {
           >
             <div className="aspect-[4/3]">
               <img
-                src="https://images.unsplash.com/photo-1569058242567-93de6f36f8eb?w=700&h=520&q=80&fit=crop"
+                src="https://images.unsplash.com/photo-1518972559570-7cc1309f3229?w=700&h=520&q=80&fit=crop"
                 alt="Hama Center"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
