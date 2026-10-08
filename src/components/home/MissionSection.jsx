@@ -44,21 +44,35 @@ export default function MissionSection() {
             className="lg:sticky lg:top-32"
           >
             <span className="text-xs font-bold tracking-widest uppercase" style={{ color: '#6b4f7a' }}>
-              {t('Our Mission', 'مهمتنا')}
+              {t('Our Vision', 'رؤيتنا')}
             </span>
             <div className="section-divider mt-3 mb-6" />
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight">
               {t(
-                'A Cohesive Humane Society That Recognizes Everyone\'s Value',
-                'مجتمع إنساني متماسك يعترف بقيمة الجميع'
+                'A Cohesive Humane Society That Believes in All Its Components and in the Importance of Every Individual in Building Themselves and Others, Built on Active and Empowered Youth',
+                'مجتمع إنساني متماسك يؤمن بجميع مكوناته وأهمية كل فرد في بناء ذاته والآخر، ويقوم على شباب فاعل ومتمكن'
               )}
             </h2>
-            <p className="mt-6 text-gray-500 leading-relaxed">
-              {t(
-                'Founded in Homs, Syria in 2019, Harmony Cultural Forum is a voluntary, developmental, and humanitarian initiative operating under the patronage of the Syriac Orthodox Archbishopric of Homs, Hama and Tartous. We believe art and culture can bridge divides and foster social cohesion in post-conflict communities.',
-                'تأسس ملتقى هارموني الثقافي في حمص، سوريا عام 2019، وهو مبادرة طوعية وتنموية وإنسانية تعمل تحت رعاية مطرانية حمص وحماة وطرطوس للسريان الأرثوذكس. نؤمن أن الفن والثقافة يمكنهما جسر الانقسامات وتعزيز التماسك الاجتماعي في المجتمعات ما بعد النزاع.'
-              )}
-            </p>
+            <div className="mt-6 space-y-4 text-gray-500 leading-relaxed">
+              <p>
+                {t(
+                  'Work on the idea of Harmony Cultural Forum began in June 2018, when a group of young Syrians active in the fields of art, education and development came together and decided to create a project that would help bring life and hope back to their city, which had suffered the effects of war.',
+                  'بدأ العمل على فكرة ملتقى هارموني الثقافي في الشهر السادس من عام 2018، عندما اجتمع مجموعة من الشباب السوريين الناشطين في مجالات الفن والتعليم والتنمية، وقرروا إنشاء مشروع يساهم في إعادة الحياة والأمل إلى مدينتهم التي عانت من آثار الحرب.'
+                )}
+              </p>
+              <p>
+                {t(
+                  'Harmony officially opened on 12-5-2019, with the support of the Syriac Orthodox Archbishopric of Homs, after an old Arab house had been restored and fitted out by the hands of 10 young men and women from Homs.',
+                  'افتتح هارموني رسمياً في تاريخ 12-5-2019، بدعم من مطرانية السريان الأرثوذكس في حمص بعد أن تم تجهيز وترميم منزل عربي قديم بأيدي 10 شابا وشابة من أبناء حمص.'
+                )}
+              </p>
+              <p>
+                {t(
+                  'This work stood as proof of the strength of Syrian youth and their desire to work within their community and contribute to rebuilding their country.',
+                  'كان هذا العمل دليلاً على قوة الشباب السوري ورغبته في العمل ضمن مجتمعه والمساهمة في إعادة بناء بلده.'
+                )}
+              </p>
+            </div>
 
             <div className="mt-8 p-6 rounded-2xl" style={{ backgroundColor: '#f7f4ef' }}>
               <p className="text-sm font-semibold text-gray-700 mb-3">{t('Our Values', 'قيمنا')}</p>
