@@ -18,7 +18,7 @@ export default function Programs() {
       category: 'exhibition',
       description: t(
         'One of Harmony\'s foundational initiatives, implemented in collaboration with the Union of Fine Artists in Homs. Launched after a decade of war, the project invited artists to reflect on how those ten years had shaped them — expressing their journey from loss to resilience.',
-        'إحدى المبادرات التأسيسية للوئام، نُفذت بالتعاون مع اتحاد الفنانين التشكيليين في حمص. أُطلقت بعد عقد من الحرب، دعت الفنانين للتأمل في كيفية تشكيل تلك السنوات العشر لهم — معبرين عن رحلتهم من الخسارة إلى الصمود.'
+        'إحدى المبادرات التأسيسية لهارموني، نُفذت بالتعاون مع اتحاد الفنانين التشكيليين في حمص. أُطلقت بعد عقد من الحرب، دعت الفنانين للتأمل في كيفية تشكيل تلك السنوات العشر لهم — معبرين عن رحلتهم من الخسارة إلى الصمود.'
       ),
       stats: [
         { value: '75', label: t('Youth Participants', 'مشارك شاب') },
@@ -267,7 +267,7 @@ export default function Programs() {
             <p className="mt-3 text-gray-500">
               {t(
                 'Part of Harmony\'s safe space — over 100 participants gathering to share mutual interests.',
-                'جزء من المساحة الآمنة للوئام — أكثر من 100 مشارك يجتمعون لتبادل الاهتمامات المشتركة.'
+                'جزء من المساحة الآمنة لهارموني — أكثر من 100 مشارك يجتمعون لتبادل الاهتمامات المشتركة.'
               )}
             </p>
           </div>

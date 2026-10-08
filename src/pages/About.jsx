@@ -49,7 +49,7 @@ export default function About() {
       title: t('The Clubs', 'النوادي'),
       description: t(
         'The clubs became part of Harmony\'s safe space, with over 100 participants gathering to share mutual interests through the English Club, Cinema Club, and Book Club.',
-        'أصبحت النوادي جزءاً من المساحة الآمنة للوئام، مع أكثر من 100 مشارك يجتمعون لتبادل الاهتمامات المشتركة من خلال نادي اللغة الإنجليزية ونادي السينما ونادي الكتاب.'
+        'أصبحت النوادي جزءاً من المساحة الآمنة لهارموني، مع أكثر من 100 مشارك يجتمعون لتبادل الاهتمامات المشتركة من خلال نادي اللغة الإنجليزية ونادي السينما ونادي الكتاب.'
       ),
       image: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=400&h=300&q=80&fit=crop',
     },
@@ -237,7 +237,7 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
             <span className="text-xs font-bold tracking-widest uppercase" style={{ color: '#6b4f7a' }}>
-              {t("Harmony's Timeline", 'خط زمني للوئام')}
+              {t("Harmony's Timeline", 'خط زمني لهارموني')}
             </span>
             <div className="section-divider mt-3 mb-4 mx-auto" />
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
@@ -257,15 +257,15 @@ export default function About() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.05 }}
-                  className={`relative grid md:grid-cols-2 gap-8 items-center ${index % 2 === 0 ? '' : 'md:rtl-grid'}`}
+                  className="relative grid md:grid-cols-2 gap-8 md:gap-16 items-center"
                 >
                   {/* Year bubble — center */}
-                  <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 w-14 h-14 rounded-full items-center justify-center text-white text-xs font-bold z-10 shadow-lg harmony-gradient">
+                  <div className="hidden md:flex absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 rounded-full items-center justify-center text-white text-xs font-bold z-10 shadow-lg ring-4 ring-white harmony-gradient">
                     {item.year}
                   </div>
 
                   {/* Content side */}
-                  <div className={`${index % 2 === 0 ? 'md:pr-16 md:text-right' : 'md:col-start-2 md:pl-16'}`}>
+                  <div className={`md:row-start-1 ${index % 2 === 0 ? 'md:col-start-1 md:pe-10 md:text-end' : 'md:col-start-2 md:ps-10 md:text-start'}`}>
                     <div className="md:hidden inline-flex items-center gap-2 mb-3">
                       <span className="px-3 py-1 rounded-full text-xs font-bold text-white harmony-gradient">{item.year}</span>
                     </div>
@@ -274,7 +274,7 @@ export default function About() {
                   </div>
 
                   {/* Image side */}
-                  <div className={`${index % 2 === 0 ? 'md:col-start-2 md:pl-16' : 'md:col-start-1 md:row-start-1 md:pr-16'}`}>
+                  <div className={`md:row-start-1 ${index % 2 === 0 ? 'md:col-start-2 md:ps-10' : 'md:col-start-1 md:pe-10'}`}>
                     <div className="rounded-xl overflow-hidden shadow-md aspect-video">
                       <img src={item.image} alt={item.title} className="w-full h-full object-cover" />
                     </div>
